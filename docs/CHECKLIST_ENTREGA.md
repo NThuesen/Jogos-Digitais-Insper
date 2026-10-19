@@ -22,7 +22,8 @@
 
 - [x] Repositório origin identificado: https://github.com/NThuesen/Jogos-Digitais-Insper.
 - [x] Visibilidade pública confirmada pela API conectada em 19/10/2026.
-- [ ] Revisar os arquivos modificados, criar/enviar o commit e conferir no GitHub se o projeto atualizado está presente. Não incluir Library, Temp, Logs ou caches.
+- [x] Arquivos revisados e registrados no commit local de implementação `1342899`; preservadas as alterações anteriores. Library, Temp, Logs e builds fora do Git.
+- [ ] Enviar os commits com `git -C C:\dev\unity\introUnity push origin main`, após confirmar a publicação. Se solicitado, autenticar a conta NThuesen. Conferir no GitHub se o projeto atualizado está presente.
 - [ ] Abrir README e CREDITS na página pública e testar os links. O fato de o repositório estar público não comprova que as últimas mudanças já foram enviadas.
 
 ## itch.io e jam

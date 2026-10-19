@@ -62,3 +62,7 @@ Navegador: Edge headless com WebGL2/SwiftShader; ações de teclado reais e scre
 Build: `Builds/CrystalEscape-WebGL`. Pacote pronto: `Builds/Release/CrystalEscape-WebGL.zip`, 19.061.960 bytes. SHA256: `c410a6e3087fd3f568ae872f8af9d66f39faef0f5e9b1d06951637274264c16e`. Verificação em [PACKAGE_VERIFICATION.json](PACKAGE_VERIFICATION.json). Material: capa e capturas em `Builds/Release`, [texto da página](ITCH_IO_TEXTO.md), [créditos](../CREDITS.md) e [checklist](CHECKLIST_ENTREGA.md).
 
 Nenhum upload, push ou envio acadêmico é declarado concluído. O PDF contém divergência entre os pontos listados e a fórmula; não há promessa de nota.
+
+Implementação e evidências registradas no commit local `1342899`, na branch main, preservando os arquivos anteriores. O repositório está à frente de origin/main; o envio remoto continua pendente. Este relatório e o checklist têm um commit posterior de documentação. A pasta Builds é ignorada pelo Git e deve ser guardada para o upload do ZIP.
+
+Passos humanos restantes: revisar/auditar o som após interação; confirmar e executar o push; entrar no itch.io, enviar o ZIP HTML5, usar capa/texto preparados, testar a página e inscrevê-la na jam; enviar os links reais no Blackboard e guardar o comprovante antes do prazo. Não marcar teste físico de Xbox como concluído.

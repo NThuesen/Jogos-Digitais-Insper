@@ -25,6 +25,8 @@ O projeto usa URP 2D, uGUI/TextMesh Pro e Input System. O pacote Unity MCP é ut
 
 O progresso e os resultados reais ficam em [Gates e evidências](docs/GATES_CRYSTAL_ESCAPE.md) e [Rubrica](docs/RUBRICA_INTRO_UNITY.md). Não confundir recurso implementado com teste realizado. A build de segurança do tutorial e o backup dos fontes ficam em `Builds/WebGL-Safety` e `Builds/IntroUnity-baseline.zip`; a pasta Builds é ignorada pelo Git.
 
+Resultado final: [validação e evidências](docs/VALIDACAO_FINAL.md). WebGL revisado gerado sem erros e exercitado no Edge; os avisos do Unity e os limites dos testes estão registrados. [Checklist de publicação e Blackboard](docs/CHECKLIST_ENTREGA.md).
+
 Build final: `Builds/CrystalEscape-WebGL`. ZIP HTML5 para envio: `Builds/Release/CrystalEscape-WebGL.zip`. Capa e screenshots: `Builds/Release`. Esses artefatos locais não são versionados; a capa também está em [docs/cover.png](docs/cover.png).
 
 Para abrir a build via HTTP, execute `node Tools/serve-build.cjs Builds 8092` e acesse `http://127.0.0.1:8092/CrystalEscape-WebGL/`. Abrir index.html diretamente por file:// não é o fluxo de execução WebGL.

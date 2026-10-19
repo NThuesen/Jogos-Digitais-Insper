@@ -4,5 +4,7 @@
   "visibility": "public",
   "defaultBranch": "main",
   "url": "https://github.com/NThuesen/Jogos-Digitais-Insper",
-  "localChangesPublished": false
+  "localChangesPublished": false,
+  "localImplementationCommit": "1342899",
+  "pushPending": true
 }
