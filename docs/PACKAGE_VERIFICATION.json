@@ -1,0 +1,17 @@
+{
+  "artifact": "Builds/Release/CrystalEscape-WebGL.zip",
+  "bytes": 19061960,
+  "sha256": "c410a6e3087fd3f568ae872f8af9d66f39faef0f5e9b1d06951637274264c16e",
+  "indexAtRoot": true,
+  "crc": "passed",
+  "files": [
+    "Build/CrystalEscape-WebGL.data",
+    "Build/CrystalEscape-WebGL.framework.js",
+    "Build/CrystalEscape-WebGL.loader.js",
+    "Build/CrystalEscape-WebGL.wasm",
+    "CREDITS.md",
+    "index.html",
+    "ThirdPartyNotices/OFL-LiberationSans.txt"
+  ],
+  "buildReport": "docs/BUILD_FINAL.json"
+}

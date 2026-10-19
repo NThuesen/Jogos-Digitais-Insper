@@ -1,0 +1,9 @@
+﻿MainMenu : 33 unique objects/components, all local fileID references resolve.
+SampleScene : 69 unique objects/components, all local fileID references resolve.
+All original gameplay scene blocks preserved; only UI and scene roots added.
+Collectibles: 4 Triangle prefab instances.
+Player and Triangle prefabs unchanged.
+Scene List: 0 MainMenu; 1 SampleScene.
+MainMenu : serialized callback MenuActions.IniciaJogo.
+SampleScene : serialized callback MenuActions.IniciaJogo.
+SampleScene : serialized callback MenuActions.Menu.

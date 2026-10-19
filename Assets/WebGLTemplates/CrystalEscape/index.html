@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{{ PRODUCT_NAME }}}</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%235ce0c8' d='M16 2 28 13 16 30 4 13Z'/%3E%3C/svg%3E">
+  <style>
+    html,body{width:100%;height:100%;margin:0;background:#071524;overflow:hidden;font-family:Arial,sans-serif;color:#c9f7ef}
+    #unity-canvas{display:block;width:100%;height:100%;outline:none;background:#071524}
+    #unity-loading-bar{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:20px;background:#071524}
+    progress{width:240px;accent-color:#5ce0c8}
+    #fullscreen{position:absolute;right:12px;bottom:8px;border:1px solid #31596d;border-radius:4px;background:#0a1c2bdd;color:#9db9c8;padding:6px 10px;font-size:10px;cursor:pointer}
+  </style>
+</head>
+<body>
+  <canvas id="unity-canvas" width="{{{ WIDTH }}}" height="{{{ HEIGHT }}}" tabindex="0" aria-label="Crystal Escape, jogo de coleta de cristais"></canvas>
+  <div id="unity-loading-bar"><strong>CRYSTAL ESCAPE</strong><span id="load-label">Preparando o laboratório…</span><progress id="load-progress" max="1" value="0"></progress></div>
+  <button id="fullscreen" type="button">TELA CHEIA</button>
+  <script src="Build/{{{ LOADER_FILENAME }}}"></script>
+  <script>
+    const canvas=document.getElementById('unity-canvas');
+    createUnityInstance(canvas,{
+      dataUrl:'Build/{{{ DATA_FILENAME }}}',
+      frameworkUrl:'Build/{{{ FRAMEWORK_FILENAME }}}',
+#if USE_WASM
+      codeUrl:'Build/{{{ CODE_FILENAME }}}',
+#endif
+      streamingAssetsUrl:'StreamingAssets',
+      companyName:{{{ JSON.stringify(COMPANY_NAME) }}},
+      productName:{{{ JSON.stringify(PRODUCT_NAME) }}},
+      productVersion:{{{ JSON.stringify(PRODUCT_VERSION) }}}
+    },progress=>document.getElementById('load-progress').value=progress).then(game=>{
+      document.getElementById('unity-loading-bar').style.display='none';
+      canvas.focus();
+      document.getElementById('fullscreen').onclick=()=>game.SetFullscreen(1);
+    }).catch(error=>{
+      console.error(error);
+      document.getElementById('load-label').textContent='Não foi possível iniciar. Atualize a página e tente novamente.';
+    });
+  </script>
+</body>
+</html>

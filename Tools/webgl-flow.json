@@ -1,0 +1,14 @@
+[
+ {"type":"route","name":"01-vitoria"},
+ {"type":"press","key":"Enter","ms":80,"name":"02-reinicio"},
+ {"type":"route","name":"03-vitoria-apos-reinicio"},
+ {"type":"press","key":"ArrowDown","ms":100},
+ {"type":"press","key":"Enter","ms":100,"name":"04-menu"},
+ {"type":"resize","width":800,"height":600,"name":"05-menu-4x3"},
+ {"type":"route","name":"06-vitoria-4x3"},
+ {"type":"press","key":"ArrowDown","ms":100},
+ {"type":"press","key":"Enter","ms":100,"name":"07-menu"},
+ {"type":"press","key":"Enter","ms":100,"name":"08-novo-jogo"},
+ {"type":"wait","ms":93000,"name":"09-derrota-tempo-real"},
+ {"type":"press","key":"Enter","ms":100,"name":"10-reinicio-apos-derrota"}
+]

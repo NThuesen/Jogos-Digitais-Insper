@@ -1,0 +1,11 @@
+{
+  "result": "Succeeded",
+  "platform": "WebGL",
+  "outputPath": "C:/dev/unity/introUnity/Builds/CrystalEscape-WebGL",
+  "totalBytes": 59863577,
+  "errors": 0,
+  "warnings": 4,
+  "durationSeconds": 605.2666287,
+  "buildStartedAt": "2026-10-19T23:00:58.315141",
+  "buildEndedAt": "2026-10-19T23:11:03.5817697"
+}
