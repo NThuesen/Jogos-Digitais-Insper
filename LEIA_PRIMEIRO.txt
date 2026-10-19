@@ -1,0 +1,20 @@
+KIT CODEX PARA PROJETO INTRO UNITY
+
+1) Extraia o conteúdo deste ZIP NA RAIZ DO PROJETO que contém Assets/, Packages/ e ProjectSettings/ (sem criar projeto novo). A estrutura nova deve ficar:
+
+ProjetoUnity/
+  Assets/
+  Packages/
+  ProjectSettings/
+  docs/Projeto_IntroUnity_Original.pdf
+  docs/Tutorial_Introducao_Rapida_Original.pdf
+  docs/RUBRICA_INTRO_UNITY.md
+  docs/CODEX_TASK_INTRO_UNITY.md
+  CODEX_PROMPT_COPIAR.txt
+
+2) Abra o Codex no diretório raiz do projeto Unity.
+3) Copie o texto de CODEX_PROMPT_COPIAR.txt e envie como primeira mensagem.
+4) Confirme que Codex tem acesso ao Unity Editor/MCP ou aos comandos de Editor e a Build WebGL.
+5) Teste o jogo e publique no itch.io/Blackboard após verificar a build final.
+
+IMPORTANTE: este pacote contém APENAS documentação e os PDFs originais. Ele não modifica cenas, scripts ou assets.

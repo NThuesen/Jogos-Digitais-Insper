@@ -1,0 +1,15 @@
+Você é o implementation agent deste projeto Unity individual. Quero maximizar a cobertura da rubrica acadêmica do Projeto Introdução ao Unity, sem transformar o tutorial em um jogo complexo. A entrega é 20/10/2026 às 23h50.
+
+Antes de qualquer alteração, leia os arquivos:
+- docs/Projeto_IntroUnity_Original.pdf
+- docs/Tutorial_Introducao_Rapida_Original.pdf
+- docs/RUBRICA_INTRO_UNITY.md
+- docs/CODEX_TASK_INTRO_UNITY.md
+
+Inspecione o repositório e o estado REAL das cenas, prefabs, scripts, Build Profiles, configurações de input, assets e Unity Editor. A descrição do baseline nos documentos é hipótese a verificar.
+
+Siga o plano e os gates de docs/CODEX_TASK_INTRO_UNITY.md. A proposta mínima é Crystal Escape: quatro cristais, tempo limitado, score, três vidas, inimigos patrulheiro e perseguidor, arena tematizada, HUD, música e SFX, suporte a Xbox, vitória/derrota, restart/menu. Priorize não receber penalidades: menu funcional, sem softlocks, build WebGL realmente jogável, README/créditos, pasta pronta para publicar no itch.io e checklist para Blackboard.
+
+Tome decisões triviais sem me interromper. Se precisar de operação humana/credencial, indique exatamente o que devo fazer. Não declare como testado algo que só foi codificado, não faça scope creep e não invente o estado do projeto. Use Unity MCP ou Editor API/batchmode para validar cena e gameplay; se faltar acesso, registre o bloqueio. Faça um gate de cada vez, com testes reais e relatório objetivo. Prepare a build de segurança WebGL cedo e não deixe publicação para a última hora.
+
+No final, mostre quais critérios da rubrica estão realmente validados, quais precisam de teste manual, caminhos dos entregáveis, evidências de funcionamento e pendências de GitHub/itch.io/Blackboard.
